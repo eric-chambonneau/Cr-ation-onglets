@@ -9,10 +9,10 @@
 </head>
 <body>
     <div class="tab">
-    <button id="tablinks">Home</button>
-    <button id="tablinks">Contact</button>
-    <button id="tablinks">Réservation</button>
-    <button id="tablinks">Boutique</button>
+    <button onclick="openOnglet(event,'Home')" id="tablinks">Home</button>
+    <button onclick="openOnglet(event,'Contact')" id="tablinks">Contact</button>
+    <button onclick="openOnglet(event,'Reservation')" id="tablinks">Reservation</button>
+    <button onclick="openOnglet(event,'Boutique')" id="tablinks">Boutique</button>
     </div>
 
     <div class="tabcontent" id="Home">
@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    <div class="tabcontent" id="Réservation">
+    <div class="tabcontent" id="Reservation">
         <h3>Réservation</h3>
         <p>Bienvenue au réservation</p>
         <div class="picture">
@@ -44,6 +44,8 @@
             <div class="picture">
                 <img src="/media/boutique.jpg" alt="">
             </div>
+            
+            <script src="/script.js"></script>
 
 
     
